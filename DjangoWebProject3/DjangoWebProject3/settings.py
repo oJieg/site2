@@ -26,7 +26,7 @@ SECRET_KEY = '1b4da001-0a00-4377-bd8e-f4d000983af1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [collegeeggs.mcdir.ru]
 
 
 # Application definition
