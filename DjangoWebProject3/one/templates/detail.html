@@ -1,0 +1,18 @@
+﻿<body>
+<p> <img  src={{ question }}></img></p>
+
+
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>
+
+
+<body>
+      <form action="/one/addcom/" method="get">
+        <input type="text" name="c">
+        <input type="submit" value="add comment">
+    </form>
+</body>

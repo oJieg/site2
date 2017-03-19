@@ -1,0 +1,28 @@
+
+
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+      <form action="/one/search/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="add">
+    </form>
+     {% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/one/{{ question.id }}/"><img  src={{ question.question_text }} width="200" 
+  height="200" > </img></li>
+    {% endfor %}
+    </ul>
+        {% else %}
+          <p>No polls are available.</p>
+    {% endif %}
+
+    <br>
+  
+
+</body>
+
+</html>
