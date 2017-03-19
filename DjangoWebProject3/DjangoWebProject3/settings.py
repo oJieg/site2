@@ -82,7 +82,7 @@ DATABASES = {
          'HOST': 'a194277.mysql.mchost.ru',
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'a194277_db',
-        'USER': 'a194277_1',
+        'USER': 'a194277_user',
         'PASSWORD': 'b47551926gXv'
     }
 }
@@ -128,4 +128,4 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
-STATIC_ROOT = '/home/httpd/vhosts/collegeeggs.mcdir.ru/httpdocs/static'
+#STATIC_ROOT = '/home/httpd/vhosts/collegeeggs.mcdir.ru/httpdocs/static'
