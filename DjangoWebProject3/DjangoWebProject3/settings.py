@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
          'HOST': 'a194277.mysql.mchost.ru',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'a194277_db',
-        'USER': 'a194277_user',
+        'NAME': 'a194277_1',
+        'USER': 'a194277_1',
         'PASSWORD': 'b47551926gXv'
     }
 }
