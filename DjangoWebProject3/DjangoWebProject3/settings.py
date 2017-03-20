@@ -26,7 +26,7 @@ SECRET_KEY = '1b4da001-0a00-4377-bd8e-f4d000983af1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [collegeeggs.mcdir.ru]
+ALLOWED_HOSTS = ['collegeeggs.mcdir.ru']
 
 
 # Application definition
@@ -126,6 +126,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+#STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
-#STATIC_ROOT = '/home/httpd/vhosts/collegeeggs.mcdir.ru/httpdocs/static'
+STATIC_ROOT = '/home/httpd/vhosts/collegeeggs.mcdir.ru/httpdocs/static'
